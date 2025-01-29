@@ -1,0 +1,7 @@
+@import "@/styles/mixins/mixins";
+@import "@/styles/colors/colors.scss";
+
+.taskForm {
+    @include task-item;
+    background-color: $lightGreen;
+}
